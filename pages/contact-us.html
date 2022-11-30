@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mardi Gras New Orleans</title>
+    <link rel="stylesheet" href="../SASS/site.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="js\contact-us.js"></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="sticky-top bg-main-1 p-2">
+        <div class="container ">
+            <nav class="navbar navbar-expand-lg bg-main-1">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="logo" src="../logo/logo.png" alt="mardi-grass" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="media.html">Media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="contact-us.html">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <a class="btn btn-success" href="../#sponsers" role="button">SPONSERS</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- content section -->
+
+    <div class="container">
+        <div class="text-center">
+            <h1 class="title">Contact Us</h1>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6">
+                <div id="main-form">
+                    <form onsubmit="return submitForm()">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label sub-title">Full name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                            <span id="name-error" class="visually-hidden text-danger">Invalid Name</span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label sub-title">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text text-warning">We'll never share your email with anyone
+                                else.</div>
+                            <span id="email-error" class="visually-hidden text-danger">Invalid Email</span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label sub-title">Message</label>
+                            <textarea class="form-control" id="content"></textarea>
+                            <span id="content-error" class="visually-hidden text-danger">Content cannot be empty</span>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div id="form-finish" class="visually-hidden">
+                    <h1 class="title">Thank You</h1>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3487564.4981522663!2d37.32613136609984!3d31.39139666850479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1500492432a7c98b%3A0x6a6b422013352cba!2z15nXqdeo15DXnA!5e0!3m2!1siw!2sil!4v1669641271915!5m2!1siw!2sil"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-white">
+
+        <!-- Section: Links  -->
+        <section class="pt-1">
+            <div class="container text-center text-md-start mt-4">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Mardi Gras New Orleans
+                        </h6>
+                        <p>
+                            Everything you need to know about Mardi Gras, including updated parade routes, traditions,
+                            the best places to get Mardi
+                            Gras beads, masks, king cakes and more!
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Links
+                        </h6>
+                        <p>
+                            <a href="../index.html" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="about.html" class="text-reset">About</a>
+                        </p>
+                        <p>
+                            <a href="media.html" class="text-reset">Media</a>
+                        </p>
+                        <p>
+                            <a href="faq.html" class="text-reset">FAQ</a>
+                        </p>
+                        <p>
+                            <a href="contact-us.html" class="text-reset">Contact Us</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p>
+                            <i class="fas fa-home me-3 "></i> 1380 Port of New Orleans Pl., Next to Convention
+                            Center,
+                            New Orleans, LA 70130
+
+                        </p>
+
+
+                        <p>
+                            <a class="text-reset fw-light p-3" href="mailto:press@mardigrasneworleans.com">
+                                press@mardigrasneworleans.com</a>
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i>P: (504) 361-7821 | F: (504) 558-1865</p>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4 bg-main-purple">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="mailto:yuliflider19@gmail.com?subject=Hi Yuli">Yuli
+                Flider</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- Modal -->
+
+
+</body>
+
+</html>
