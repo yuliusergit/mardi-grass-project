@@ -7,7 +7,7 @@ function showModal(idx) {
     {
       name: "Ace Hotel New Orleans",
       desc: "A stone’s throw from the French Quarter, in the soul of the Deep South. ",
-      img: "imgs/sponsers/acehotel.png",
+      img: "imgs/sponsers/lcm.jpg",
       link: "https://acehotel.com",
       href: "https://acehotel.com",
     },

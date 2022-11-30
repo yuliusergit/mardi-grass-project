@@ -7,12 +7,6 @@ body {
 * {
   font-family: "Roboto", sans-serif;
 }
-.bg-main-1 {
-  background-color: #f2cc0f;
-}
-.bg-main-purple {
-  background-color: #9453a6 !important;
-}
 
 .title {
   font-family: "Henny Penny";
@@ -24,28 +18,6 @@ body {
   font-family: "Pattaya";
   font-size: 35px;
   color: #f2f2f2;
-}
-.main-content {
-  min-height: calc(50vh);
-}
-.carousel-caption {
-  top: 50%;
-  transform: translateY(-50%);
-}
-.logo {
-  width: 120px;
-  position: absolute;
-  top: -5px;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-.img-block {
-  height: calc(100vh - 72px);
-  width: calc(100vw);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top top;
 }
 
 .img-layer {
